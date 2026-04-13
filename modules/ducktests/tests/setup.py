@@ -31,4 +31,4 @@ setup(name="ignitetest",
       packages=find_packages(exclude=["ignitetest.tests", "ignitetest.tests.*"]),
       include_package_data=True,
       install_requires=["ducktape==0.8.2"],
-      tests_require=["pytest==6.0.1"])
+      tests_require=["pytest==9.0.3"])
